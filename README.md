@@ -2,6 +2,7 @@
 This is basic API server made as a submissionm for this [programming chalange](https://github.com/fetch-rewards/receipt-processor-challenge/tree/main)
 
 # Run Instructions
+from the app directory run
 ```
 docker build -t receipts-api ./ 
 docker run -p 5000:5000 receipts-api 
